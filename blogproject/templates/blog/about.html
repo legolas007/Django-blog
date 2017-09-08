@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block main %}
+
+暂无。。。
+
+
+
+
+
+<br>
+<br>
+
+
+    <section class="comment-area">
+        <!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2142709"></script>
+<!-- UY END -->
+    </section>
+{% endblock main %}
+{% block toc %}
+    <div class="widget widget-content">
+        <h3 class="widget-title">文章目录</h3>
+        {{ post.toc|safe }}
+    </div>
+{% endblock toc %}
